@@ -1,8 +1,8 @@
-# Steps
-1. Download the code from the github repo.
-2. Edit config.json file with your bot's token, prefix and your link to mongoDB database.
-3. When you have it in the code editor run command "npm i ascii-table" in the terminal.
-4. Start up the bot with "node ." in the terminal.
+# Шаги
+1. Загрузите код из репозитория github.
+2. Отредактируйте файл config.json - добавьте префикс и токен вашего бота.
+3. Установите библиотеку ascii-table: "npm i ascii-table" в терминале
+4. Теперь запустите бота с помощью "node ."
 
-# If you need any help contact me on discord ↩
+# Если вам нужна помощь, свяжитесь со мной через discord ↩
 sashking ♪#0001
