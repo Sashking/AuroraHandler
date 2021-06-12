@@ -37,5 +37,17 @@ client.on('messageReactionAdd', (messageReaction, user) => {
         case '5️⃣':
             voiceChannelSystem.limit5(messageReaction, user);
             break;
+        case '0️⃣':
+            voiceChannelSystem.removeLimit(messageReaction, user);
+            break;
+        case '🔴':
+            voiceChannelSystem.bitrateLow(messageReaction, user);
+            break;
+        case '🟠':
+            voiceChannelSystem.bitrateMiddle(messageReaction, user);
+            break;
+        case '🟢':
+            voiceChannelSystem.bitrateHigh(messageReaction, user);
+            break;
     }
 })

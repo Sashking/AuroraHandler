@@ -1,0 +1,6 @@
+{
+    "window.title": "${dirty} 📁 ${folderName} 📼 ${activeEditorShort}",
+    "files.defaultLanguage": "${activeEditorLanguage}",
+    "editor.suggest.showStatusBar": true,
+    "editor.suggest.insertMode": "insert",
+}

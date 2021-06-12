@@ -12,7 +12,7 @@ module.exports = {
             var ping = msg.createdTimestamp - message.createdTimestamp;
 
             var embed = new MessageEmbed()
-                .setAuthor(`Bot's ping : ${ping}`)
+                .setTitle(`Пинг: \`${ping}мс\``)
                 .setColor('00D166')
             
             msg.edit(embed)
